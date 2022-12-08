@@ -1,0 +1,85 @@
+.header__logo{
+    width: 90px;
+    margin-right: 20px;
+}
+.searchimg{
+    width: 40px;
+    height: 40px;
+}
+.basketimg{
+    width: 30px;
+    background-color: #131921;
+    margin-top: 5px;
+}
+.basketnumber{
+    color: rgb(173, 135, 7);
+    margin-left: 1px; 
+    width: 10px;
+    height: 20px; 
+    font-size: 14px;
+    font-weight: 800;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 20px;
+}
+.header__bottom{
+    background-color: #232f3e;
+}
+.header__bottom ul{
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header__bottom ul li {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header__search input{
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__option1{
+    font-size: 10px;
+    color: white;
+}
+.header__option2{
+    display: block;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+}
+.header__bottom ul li img{
+    width: 250px;
+}
