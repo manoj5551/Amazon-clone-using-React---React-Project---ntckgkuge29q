@@ -38,13 +38,13 @@
     font-weight: bold;
 }
 
-@media  (max-width:900px){
+@media  (max-width:600px){
     .products__wrap{
         flex-direction: column;
     }
     .products__wrap .product{
             width: 80%;
-            margin-top: 30px;
+            margin-top: 150px;
     }
 }
     

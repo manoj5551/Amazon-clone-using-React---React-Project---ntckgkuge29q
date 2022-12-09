@@ -4,5 +4,6 @@
     }
 }
 .banner{
-    max-width: fit-content;
+    background-size: cover;
+    overflow: hidden;
 }
