@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import Checkout from "./Checkout";
 import ThankYou from "./ThankYou";
 import Signin from "./Signin";
+import "./css/app.css"
 
 function App() {
 

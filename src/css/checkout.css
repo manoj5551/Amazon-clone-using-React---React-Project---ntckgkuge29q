@@ -48,3 +48,8 @@
     cursor: pointer;
     padding: 10px 30px;
 }
+@media screen and (max-width:600px){
+    .checkout__wrap{
+        flex-direction: column;
+    }
+}
