@@ -25,7 +25,7 @@ function App() {
   } 
   const addToCart = async (proId,qty)=>{
     const response = await commerce.cart.add(proId,qty)
-    console.log(response)
+    //console.log(response)
     setCart(response.cart)
   } 
 

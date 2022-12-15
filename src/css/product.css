@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     place-items: center;
-    margin-top: -200px;
+    margin-top: -250px;
     
 }
 .products__wrap .product {
@@ -46,5 +46,6 @@
             width: 80%;
             margin-top: 150px;
     }
+    
 }
     

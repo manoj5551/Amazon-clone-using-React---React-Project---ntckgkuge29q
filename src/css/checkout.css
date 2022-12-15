@@ -52,4 +52,8 @@
     .checkout__wrap{
         flex-direction: column;
     }
+    .order__confirm{
+        text-align: center;
+        width: 250px;
+    }
 }
